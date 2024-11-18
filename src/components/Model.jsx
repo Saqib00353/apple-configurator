@@ -57,7 +57,9 @@ const Model = () => {
   return (
     <section>
       <div className="screen-max-width">
-       
+       <div className="text-sm pt-6 text-center text-neutral-500 italic">Developed By {' '}
+        <a href="https://muhammadsaqib.com" target="_blank" className="underline hover:text-white cursor-pointer transition">Muhammad Saqib</a>
+        </div>
         <div className="flex flex-col items-center">
           <div className="w-full h-[80vh] overflow-hidden relative">
             <ModelView
